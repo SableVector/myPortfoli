@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовое задание</title>
+	<!-- Подключение стилей сайта -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220716200210">
+	<!-- Подключение скриптов -->
+	<script defer src="js/main.min.js?_v=20220716200210"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- === HEADER === -->
+		<header class="header">
+    <div class="header__top communication">
+        <div class="communication__container">
+            <div class="communication__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="communication__content content-communication">
+                <div class="content-communication__contacts contacts">
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="tel:+12345678910">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#phone"></use>
+                                </svg>
+                                <span>+1 234 567 89 10</span>
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="mailto:example@mail.ru">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#mail"></use>
+                                </svg>
+                                <span>example@mail.ru</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-communication__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#viber"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="content-communication__button button button--main" type="button" data-modal-open>связаться</button>
+            </div>
+        </div>
+    </div>
+    <nav class="header__bottom menu">
+        <div class="menu__container">
+            <button class="menu__icon icon-menu" id="burger-open" aria-label="menu burger open">
+                <span></span>
+            </button>
+            <div class="menu__wrapper">
+                <button class="menu__icon icon-menu" id="burger-close" aria-label="menu burger close">
+                    <span></span>
+                </button>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Оборудование новое</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Оборудование Б&nbsp;/&nbsp;У</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Комплектующие прессов ММО</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Комплектующие упаковочных машин</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Изготовление деталей</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+		<!-- === MAIN === -->
+		<!-- === PAGE === -->
+<main class="page">
+
+    <section class="page__intro intro">
+        <div class="intro__container">
+            <h1 class="main-title" hidden>Основной заголовок сайта</h1>
+
+            <div class="intro__slider">
+                <div class="intro__swiper">
+                    <div class="intro__slide slide" style="background-image: url('img/slider/image-01.jpg');">
+                        <div class="slide__content">
+                            <h2 class="slide__title title title--light">Заголовок слайда 1</h2>
+                            <a class="slide__button button button--secondary" href="#">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="intro__slide slide" style="background-image: url('img/slider/image-01.jpg');">
+                        <div class="slide__content">
+                            <h2 class="slide__title title title--light">Заголовок слайда 2</h2>
+                            <a class="slide__button button button--secondary" href="#">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="intro__slide slide" style="background-image: url('img/slider/image-01.jpg');">
+                        <div class="slide__content">
+                            <h2 class="slide__title title title--light">Заголовок слайда 3</h2>
+                            <a class="slide__button button button--secondary" href="#">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro__control">
+                    <div class="intro__slider-button-prev">
+                        <svg>
+                            <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                        </svg>
+                    </div>
+                    <div class="intro__slider-button-next">
+                        <svg>
+                            <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="page__novelties section novelties">
+        <div class="novelties__container">
+            <h2 class="novelties__title title title-section">новинки</h2>
+            <ul class="novelties__list">
+                <li class="novelties__item">
+                    <article class="novelties__card card-novelties">
+                        <a class="card-novelties__link" href="#">
+                            <span class="card-novelties__decor"></span>
+                            <div class="card-novelties__image">
+                                <picture><source srcset="img/new-image/image-01.webp" type="image/webp"><img src="img/new-image/image-01.jpg" alt="Картинка"></picture>
+                            </div>
+                            <h3 class="card-novelties__title">
+                                <span>Наименование товара</span>
+                                <span>Услуга</span>
+                            </h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="novelties__item">
+                    <article class="novelties__card card-novelties">
+                        <a class="card-novelties__link" href="#">
+                            <span class="card-novelties__decor"></span>
+                            <div class="card-novelties__image">
+                                <picture><source srcset="img/new-image/image-01.webp" type="image/webp"><img src="img/new-image/image-01.jpg" alt="Картинка"></picture>
+                            </div>
+                            <h3 class="card-novelties__title">
+                                <span>Наименование товара</span>
+                                <span>Услуга</span>
+                            </h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="novelties__item">
+                    <article class="novelties__card card-novelties">
+                        <a class="card-novelties__link" href="#">
+                            <span class="card-novelties__decor"></span>
+                            <div class="card-novelties__image">
+                                <picture><source srcset="img/new-image/image-01.webp" type="image/webp"><img src="img/new-image/image-01.jpg" alt="Картинка"></picture>
+                            </div>
+                            <h3 class="card-novelties__title">
+                                <span>Наименование товара</span>
+                                <span>Услуга</span>
+                            </h3>
+                        </a>
+                    </article>
+                </li>
+                <li class="novelties__item">
+                    <article class="novelties__card card-novelties">
+                        <a class="card-novelties__link" href="#">
+                            <span class="card-novelties__decor"></span>
+                            <div class="card-novelties__image">
+                                <picture><source srcset="img/new-image/image-01.webp" type="image/webp"><img src="img/new-image/image-01.jpg" alt="Картинка"></picture>
+                            </div>
+                            <h3 class="card-novelties__title">
+                                <span>Наименование товара</span>
+                                <span>Услуга</span>
+                            </h3>
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="page__categories section categories">
+        <div class="categories__container">
+            <h2 class="categories__title title title-section">категории</h2>
+            <ul class="categories__list">
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Оборудование новое</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Оборудование Б/У</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Запасные части</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Изготовление</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Ремонт комплектующих для прессов Мом</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="categories__item card-categories">
+                    <a class="card-categories__link" href="#">
+                        <div class="card-categories__image">
+                            <picture><source srcset="img/categories/image-01.webp" type="image/webp"><img src="img/categories/image-01.jpg" alt="Картинка"></picture>
+                        </div>
+                        <div class="card-categories__content">
+                            <div class="card-categories__header">
+                                <img src="img/decorations/dec-01.svg" alt="Картинка">
+                            </div>
+                            <h3 class="card-categories__title title">Ниши производства</h3>
+                            <div class="card-categories__watch">
+                                Смотреть
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+		<!-- === FOOTER === -->
+		<footer class="footer">
+    <div class="footer__top communication">
+        <div class="communication__container">
+            <div class="communication__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="communication__content content-communication">
+                <div class="content-communication__contacts contacts">
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="tel:+12345678910">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#phone"></use>
+                                </svg>
+                                <span>+1 234 567 89 10</span>
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a class="contacts__link" href="mailto:example@mail.ru">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#mail"></use>
+                                </svg>
+                                <span>example@mail.ru</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-communication__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#whatsapp"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="#">
+                                <svg>
+                                    <use xlink:href="img/symbol/icons.svg#viber"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="content-communication__button button button--main" type="button"
+                data-modal-open>связаться</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__bottom bottom-footer">
+        <div class="bottom-footer__container">
+            <div class="bottom-footer__left">
+                <span class="bottom-footer__copy">2021 &copy; SiteName.com. Все права защищены</span>
+            </div>
+            <div class="bottom-footer__right">
+                <ul class="bottom-footer__list">
+                    <li class="bottom-footer__item">
+                        <address>Адрес</address>
+                    </li>
+                    <li class="bottom-footer__item">
+                        <address>Адрес</address>
+                    </li>
+                    <li class="bottom-footer__item">
+                        <div>Реквизиты</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+	</div>
+
+	<!-- === POPUP === -->
+	<div class="popup" data-modal>
+    <div class="popup__container">
+        <div class="popup__form form-popup">
+            <div class="form-popup__header">
+                <h2 class="form-popup__title title title-popup title--light">Обратная связь</h2>
+                <button class="form-popup__close" type="button"></button>
+            </div>
+            <div class="form-popup__body">
+                <form class="form" action="#">
+                    <div class="form__row">
+                        <input class="form__input" type="text" name="form[name]" placeholder="Имя">
+                        <input class="form__input" type="number" name="form[phone]" placeholder="Номер телефона" min="1">
+                        <input class="form__input" type="email" name="form[email]" placeholder="E-mail">
+                    </div>
+
+                    <div class="form__row">
+                        <textarea class="form__input" name="message" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <div class="form__row">
+                        <button class="form__button button button--main" type="submit">
+                            Отправить
+                        </button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
