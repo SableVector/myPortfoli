@@ -189,11 +189,6 @@ a:not([href]) {
   cursor: default;
 }
 
-a:not([href]):hover {
-  color: inherit;
-  text-decoration: inherit;
-}
-
 img,
 video {
   max-width: 100%;
@@ -207,4 +202,11 @@ ul > li {
 
 img {
   display: block;
+}
+
+@media (any-hover: hover) {
+  a:not([href]):hover {
+    color: inherit !important;
+    text-decoration: inherit;
+  }
 }
