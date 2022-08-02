@@ -46,6 +46,7 @@ ol > li {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* === page === */
@@ -53,9 +54,8 @@ ol > li {
 .page-home,
 .page-bonus,
 .page-apps {
-  padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 80px;
+  padding-top: 100px;
 }
 
 .page-bonus > *:not(:last-child),

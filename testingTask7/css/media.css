@@ -74,10 +74,6 @@
       font-size: 16px;
     }
   
-    .content {
-      padding: 0 15px;
-    }
-  
     .button {
       padding: 12px 32px;
     }
@@ -454,7 +450,8 @@
     }
   
     .content {
-      padding: 0 10px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   
     h1,
